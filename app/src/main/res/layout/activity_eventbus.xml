@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eventbus发送数据页面" />
+
+    <Button
+        android:id="@+id/DC_Button_MainThradSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主线程发送数据" />
+
+    <Button
+        android:id="@+id/DC_Button_ReceiveStickyData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接受粘性数据" />
+
+    <TextView
+        android:id="@+id/DC_TextViewShowResult"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="显示结果:" />
+
+</LinearLayout>
